@@ -9,8 +9,11 @@ Maze::Maze(string file_name) {
 	}
 }
 
+vector<string> Maze::getField() {
+	return field;
+}
+
 int Maze::getSize() {
-	cout << "N: " << N << endl;
 	return N;
 }
 

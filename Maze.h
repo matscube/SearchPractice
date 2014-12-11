@@ -15,6 +15,7 @@ private:
 public:
 	Maze(string file_name);
 	int getSize();
+	vector<string> getField();
 	void showField();
 };
 #endif
